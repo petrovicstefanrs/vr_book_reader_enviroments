@@ -1,0 +1,24 @@
+{
+  "name": "PeachCastle",
+  "version": "0.0.1",
+  "meta": {
+    "title": "PeachCastle"
+  },
+  "output": {
+    "filePath": "rooms/PeachCastle"
+  },
+  "assets": [
+    {
+      "name": "PeachCastle",
+      "src":
+        "../../environment_models/PeachCastle/scene.gltf",
+      "gltf-unlit-generator": {
+        "skip": true
+      },
+      "components": [
+        "../defaultEnvironments.json"
+      ]
+    }
+  ]
+}
+

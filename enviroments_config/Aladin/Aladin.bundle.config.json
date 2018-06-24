@@ -1,0 +1,24 @@
+{
+  "name": "Aladin",
+  "version": "0.0.1",
+  "meta": {
+    "title": "Aladin"
+  },
+  "output": {
+    "filePath": "rooms/Aladin"
+  },
+  "assets": [
+    {
+      "name": "Aladin",
+      "src":
+        "../../environment_models/Aladin/scene.gltf",
+      "gltf-unlit-generator": {
+        "skip": true
+      },
+      "components": [
+        "../defaultEnvironments.json"
+      ]
+    }
+  ]
+}
+

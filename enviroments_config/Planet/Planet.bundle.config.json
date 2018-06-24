@@ -1,0 +1,24 @@
+{
+  "name": "Planet",
+  "version": "0.0.1",
+  "meta": {
+    "title": "Planet"
+  },
+  "output": {
+    "filePath": "rooms/Planet"
+  },
+  "assets": [
+    {
+      "name": "Planet",
+      "src":
+        "../../environment_models/Planet/scene.gltf",
+      "gltf-unlit-generator": {
+        "skip": true
+      },
+      "components": [
+        "../defaultEnvironments.json"
+      ]
+    }
+  ]
+}
+

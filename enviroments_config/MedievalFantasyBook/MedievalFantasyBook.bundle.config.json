@@ -1,0 +1,83 @@
+{
+  "name": "MedievalFantasyBook",
+  "version": "0.0.1",
+  "meta": {
+    "title": "Medieval Fantasy Book",
+    "license": "CC-BY-4.0",
+    "url":
+      "https://github.com/MozillaReality/mr-social-assets/tree/master/Environments/MedievalFantasyBook",
+    "authors": [
+      {
+        "name": "Pixel",
+        "attribution": true,
+        "url": "https://sketchfab.com/models/06d5a80a04fc4c5ab552759e9a97d91a"
+      },
+      {
+        "name": "Jim Conrad",
+        "organization": {
+          "name": "Mozilla",
+          "url": "https://mixedreality.mozilla.org/"
+        }
+      }
+    ],
+    "images": [
+      {
+        "type": "preview-thumbnail",
+        "srcset": "./MedievalFantasyBookThumbnail.jpg"
+      }
+    ]
+  },
+  "output": {
+    "filePath": "rooms/MedievalFantasyBook"
+  },
+  "assets": [
+    {
+      "name": "MedievalFantasyBook",
+      "src":
+        "../../environment_models/MedievalFantasyBook/scene.gltf",
+
+      "gltf-unlit-generator": {
+        "skip": true
+      },
+      "components": [
+        "../defaultEnvironments.json",
+        "./collision.json",
+        {
+          "scenes": {
+            "Root Scene": {
+              "loop-animation": {
+                "clip": "Take 001"
+              }
+            }
+          },
+          "nodes": {
+            "Skybox_node": {
+              "skybox": {
+                "azimuth": 0.28,
+                "inclination": 0.44
+              },
+              "light": {
+                "type": "ambient",
+                "color": "#FFF"
+              },
+              "layers": {
+                "reflection": true
+              },
+              "xr": {
+                "ar": false
+              }
+            },
+            "DirectionalLight_node": {
+              "hide-when-quality": "low",
+              "light": {
+                "type": "directional",
+                "color": "#F9FFCE",
+                "intensity": 1.5
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

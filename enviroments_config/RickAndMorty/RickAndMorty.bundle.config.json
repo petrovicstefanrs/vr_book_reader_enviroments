@@ -1,0 +1,24 @@
+{
+  "name": "RickAndMorty",
+  "version": "0.0.1",
+  "meta": {
+    "title": "RickAndMorty"
+  },
+  "output": {
+    "filePath": "rooms/RickAndMorty"
+  },
+  "assets": [
+    {
+      "name": "rick",
+      "src":
+        "../../environment_models/RickAndMorty/scene.gltf",
+      "gltf-unlit-generator": {
+        "skip": true
+      },
+      "components": [
+        "../defaultEnvironments.json"
+      ]
+    }
+  ]
+}
+

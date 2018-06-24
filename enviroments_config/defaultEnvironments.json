@@ -1,0 +1,8 @@
+{
+	"nodes": {
+		"NavMesh": {
+			"visible": false,
+			"nav-mesh": ""
+		}
+	}
+}
